@@ -15,9 +15,10 @@ label {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
 }
 
-button { background-color: hsl(214, 100%, 74%);
+button { background-color: hsl(354, 100%, 50%);
 color:black;
 height: 50px;
 width: 80px;
@@ -27,5 +28,6 @@ cursor:pointer;
 box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 button:hover {
-    background-color: hsl(214, 100%, 60%);
+    background-color: hsl(338, 100%, 50%);
 }
+body{ background-color: hsl(0, 0%, 0%);}
