@@ -1,0 +1,31 @@
+.btncontainer {
+    text-align: center;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+label {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button { background-color: hsl(214, 100%, 74%);
+color:black;
+height: 50px;
+width: 80px;
+border-radius: 10px;
+transition: background-color 0.25s;
+cursor:pointer;
+box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+button:hover {
+    background-color: hsl(214, 100%, 60%);
+}
